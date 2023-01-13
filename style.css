@@ -21,6 +21,7 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
 }
 
 .stats-card {
@@ -72,4 +73,10 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+@media all and (max-width: 700px) {
+    .stats-container {
+        flex-wrap: wrap;
+    }
 }
