@@ -94,6 +94,14 @@ header {
     text-align: center;
 }
 
+.navbar {
+    font-weight: 600;
+}
+
+.nav-item .nav-link:hover {
+    color: white;
+}
+
 @media all and (max-width: 700px) {
     .stats-container {
         flex-wrap: wrap;
