@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Poppins:wght@300;400;500&display=swap');
+
 
 body {
-    font-family: 'Cabin';
     background-color: #758190;
+}
+
+* {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 #tentacles {
@@ -74,7 +79,7 @@ body {
 }
 
 button {
-    font-family: 'Cabin';
+    font-family: 'Poppins';
     border: none;
     padding: 1%;
     margin: 1%;
