@@ -109,9 +109,12 @@ header {
 }
 
 /* Header */
+header h2 {
+    font-size: 3em;
+}
+
 h2 {
     font-family: 'Flavors', cursive;
-    font-size: 2em;
     text-align: center;
     padding: 0.7em 0;
     text-decoration: underline;

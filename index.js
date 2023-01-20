@@ -189,3 +189,10 @@ firstGameContainer.append(top);
 const second = document.createElement("p");
 second.innerText = secondGame.name;
 secondGameContainer.append(second);
+
+// typeIt utility
+new TypeIt("#welcome-type", {
+    strings: "Welcome to Sea Monster!",
+    speed: 100,
+    waitUntilVisible: true,
+}).go();
