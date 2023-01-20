@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Slackey&display=swap');
 
 body {
     font-family: 'Cabin';
@@ -100,6 +101,15 @@ header {
 
 .nav-item .nav-link:hover {
     color: white;
+}
+
+/* Header */
+h2 {
+    font-family: 'Flavors', cursive;
+    font-size: 2em;
+    text-align: center;
+    padding: 0.7em 0;
+    text-decoration: underline;
 }
 
 @media all and (max-width: 700px) {
