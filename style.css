@@ -132,6 +132,38 @@ h2 {
     padding: 3em;
 }
 
+/* General */
+ul {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 2em auto;
+    color: #9ca3af;
+}
+
+footer #name {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+footer a {
+    text-decoration: dashed underline;
+    color: rgb(76, 137, 158);
+}
+
+footer li {
+    display: inline;
+}
+
+footer .social-media {
+    padding-left: 10px;
+    font-size: 1.7em;
+}
+
 @media all and (max-width: 700px) {
     .stats-container {
         flex-wrap: wrap;
