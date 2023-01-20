@@ -120,6 +120,18 @@ h2 {
     text-decoration: underline;
 }
 
+/* Google Search box */
+#google-box {
+    margin: 2em auto;
+    width: 80%;
+    box-shadow: 10px 15px 10px #edecec70;
+}
+
+#google-box-container {
+    background-color: lightblue;
+    padding: 3em;
+}
+
 @media all and (max-width: 700px) {
     .stats-container {
         flex-wrap: wrap;

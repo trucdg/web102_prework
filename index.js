@@ -196,3 +196,4 @@ new TypeIt("#welcome-type", {
     speed: 100,
     waitUntilVisible: true,
 }).go();
+
