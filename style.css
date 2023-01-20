@@ -80,6 +80,15 @@ button {
     border-radius: 7px;
 }
 
+/* Cover photo */
+#cover-photo {
+    width: 100vw;
+    height: 40vw;
+    background: url(assets/header-image.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 @media all and (max-width: 700px) {
     .stats-container {
         flex-wrap: wrap;
